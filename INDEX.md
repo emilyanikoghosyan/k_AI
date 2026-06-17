@@ -31,8 +31,13 @@ Run these in any Claude Code session inside this folder:
 | `/sync` | Commit + push all k_AI changes to GitHub |
 | `/session-summary` | Summarize this session and log it to the changelog below |
 | `/di-start` | Load di.iiii context fast — reads CURRENT.md, AGENTS.md live from the repo |
+| `/pe-start` | Load pe.portal_engine context — fetches live repo structure |
+| `/ickam-start` | Load i_ckam context — ESP32-CAM + FastAPI face detection system |
+| `/ii-start` | Load _ii context — reads CLAUDE.md + AI_CONTEXT.md live from the repo |
 | `/status-update` | Generate a short status snapshot across all active projects |
 | `/repo-analyze` | Analyze any of your GitHub repos and suggest skills or improvements |
+| `/new-project` | Scaffold a new project — README, CLAUDE.md, .gitignore, git init |
+| `/write-readme` | Write or improve the README for any repo |
 
 ## Connected Repos
 
