@@ -45,10 +45,10 @@ Run these in any Claude Code session inside this folder:
 |------|-------|-----------|
 | [di.iiii](https://github.com/dob-0/di.iiii) | JS / React / Three.js / Node | Browser-native XR authoring platform |
 | [pe.portal_engine](https://github.com/dob-0/pe.portal_engine) | HTML | Portal engine — di ecosystem |
-| [i_ckam](https://github.com/dob-0/i_ckam) | HTML | ESP cam + face recognition event portal |
-| [br_id_ge](https://github.com/dob-0/br_id_ge) | HTML | p.br_id_ge |
-| [_ii](https://github.com/dob-0/_ii) | Python | — |
-| [vizzz.di](https://github.com/dob-0/vizzz.di) | C | — |
+| [i_ckam](https://github.com/dob-0/i_ckam) | Arduino / Python / Web | ESP32-CAM + FastAPI face-detection event portal |
+| [br_id_ge](https://github.com/dob-0/br_id_ge) | HTML | Earlier di.i XR platform iteration |
+| [_ii](https://github.com/dob-0/_ii) | Python | Live AV performance system — audio, visuals, MIDI, OSC, node mapping, runs as systemd services |
+| [vizzz.di](https://github.com/dob-0/vizzz.di) | C | Not yet analyzed — run `/repo-analyze vizzz.di` |
 
 ---
 
@@ -57,3 +57,5 @@ Run these in any Claude Code session inside this folder:
 > One entry per session. Format: `YYYY-MM-DD — what changed`
 
 - 2026-06-18 — Initial setup: created AI_WORKING_GUIDE.md, di_iiii_PROJECT_GUIDE.md, CLAUDE.md, INDEX.md. Set up Claude skills, hooks, and git repo.
+- 2026-06-18 — Added 5 repo skills: `/pe-start`, `/ickam-start`, `/ii-start`, `/new-project`, `/write-readme`. Connected repo to GitHub (emilyanikoghosyan/k_AI) with autopush.
+- 2026-06-18 — Revision pass: fixed broken H1 in AI_WORKING_GUIDE.md, set global git identity (fixes `/new-project` first-commit error), filled in `_ii`/`i_ckam`/`br_id_ge`/`vizzz.di` repo descriptions.
