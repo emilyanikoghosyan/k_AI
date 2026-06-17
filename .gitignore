@@ -1,0 +1,30 @@
+# Sensitive files — never commit these
+.env
+.env.*
+*.env
+secrets.*
+credentials.*
+*_token*
+*_secret*
+*_key*
+*.pem
+*.p12
+*.pfx
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor noise
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs (keep manually, don't auto-commit)
+*.log
+logs/
+
+# Node (if any scripts added)
+node_modules/
