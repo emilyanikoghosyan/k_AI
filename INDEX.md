@@ -21,6 +21,7 @@
 | [`AI_WORKING_GUIDE.md`](AI_WORKING_GUIDE.md) | Personal AI collaboration guide | Starting a session in any AI tool (paste the Quick Context Block) |
 | [`di_iiii_PROJECT_GUIDE.md`](di_iiii_PROJECT_GUIDE.md) | Deep dive on di.iiii codebase | Before any di.iiii dev session — or run `/di-start` |
 | [`INDEX.md`](INDEX.md) | This file — master map + changelog | Finding something, or checking what's changed |
+| [`global/`](global/README.md) | Backup of the machine-wide `~/.claude` setup: global CLAUDE.md, the scout/builder crew, per-model effort | Restoring on a new machine, or after changing the live files |
 
 ## Claude Skills (Slash Commands)
 
@@ -59,3 +60,4 @@ Run these in any Claude Code session inside this folder:
 - 2026-06-18 — Initial setup: created AI_WORKING_GUIDE.md, di_iiii_PROJECT_GUIDE.md, CLAUDE.md, INDEX.md. Set up Claude skills, hooks, and git repo.
 - 2026-06-18 — Added 5 repo skills: `/pe-start`, `/ickam-start`, `/ii-start`, `/new-project`, `/write-readme`. Connected repo to GitHub (emilyanikoghosyan/k_AI) with autopush.
 - 2026-06-18 — Revision pass: fixed broken H1 in AI_WORKING_GUIDE.md, set global git identity (fixes `/new-project` first-commit error), filled in `_ii`/`i_ckam`/`br_id_ge`/`vizzz.di` repo descriptions.
+- 2026-09-28 — Added `global/`: backup of the machine-wide ~/.claude setup (global CLAUDE.md with delegation + check-other-sessions rules, scout/builder crew agents, per-model effort settings).
